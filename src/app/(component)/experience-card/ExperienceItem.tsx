@@ -19,19 +19,23 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
   children,
 }) => {
   return (
-    <div className="group grid sm:grid-cols-8 sm:gap-10 text-md mb-12">
-      <p className="sm:col-span-2">{date}</p>
+    <div className="group grid sm:grid-cols-8 sm:gap-8 text-md mb-14">
+      {/* date */}
+      <p className="sm:text-md lg:text-sm pt-1 sm:col-span-2 mb-1">{date}</p>
       <div className="sm:col-span-6">
         <h3 className="text-md text-gray-200 grid sm:grid-cols-8">
-          <span className="sm:col-span-4">{title}</span>
-          <span className="sm:col-span-4 flex items-center">
+          {/* Company */}
+          <span className="sm:col-span-4 flex items-center pb-1 sm:pt-0 sm:order-2">
             <FaRegBuilding className="mr-2" />
             {company}
           </span>
+          {/* title */}
+          <span className="sm:col-span-4 sm:order-1">{title}</span>
         </h3>
         <h3 className="text-md text-gray-400 mt-0.2">
           <span className="sm:col-span-4">{title2}</span>
         </h3>
+        {/* Children */}
         <p className="mt-2 mb-2">{children}</p>
         <ul className="flex flex-wrap">
           {techs.map((val) => (

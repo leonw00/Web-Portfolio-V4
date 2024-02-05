@@ -2,10 +2,10 @@ import ExperienceItem from "../../(component)/experience-card/ExperienceItem";
 
 const ExperienceList = () => {
   return (
-    <div className="text-gray-400 mb-20">
+    <div className="text-gray-400 mb-section">
       <h1 className="text-lg text-white font-semibold mb-3">Experience</h1>
       <ExperienceItem
-        date="2018 - Present"
+        date="09/2022 - 12/2023"
         title="Software Engineer"
         company="QDoc"
         techs={["Javascript", "React", "AWS", "PostgreSQL", "MaterialUI"]}
@@ -18,7 +18,7 @@ const ExperienceList = () => {
         managed tasks across backend, frontend, and DevOps.
       </ExperienceItem>
       <ExperienceItem
-        date="2018 - Present"
+        date="05/2023 - 08/2023"
         title="Application Developer I"
         company="Wawanesa Insurance"
         techs={["Javascript", "React", "AWS", "Jenkins"]}
@@ -30,7 +30,7 @@ const ExperienceList = () => {
         across various environments.
       </ExperienceItem>
       <ExperienceItem
-        date="2018 - Present"
+        date="05/2022 - 03/2023"
         title="Software Developer"
         title2="QA Analyst Co-op"
         company="G3 Canada Limited"
@@ -52,7 +52,7 @@ const ExperienceList = () => {
         stable application overall.
       </ExperienceItem>
       <ExperienceItem
-        date="2018 - Present"
+        date="08/2020 - 04/2022"
         title="Teaching Assistant"
         title2="Grader / Marker I"
         company="Unversity of Manitoba"

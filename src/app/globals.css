@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.mb-section {
+  margin-bottom: 140px;
+}
