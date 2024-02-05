@@ -34,7 +34,7 @@ export default function Home() {
           <p className="mb-5">
             After completing my degree, I delved into the realm of coding and
             web development. From honing my skills in crafting custom projects
-            to staying abreast of the latest technologies, I've cultivated a
+            to staying abreast of the latest technologies, I&apos;ve cultivated a
             keen interest in the intersection of design and engineering. My
             professional journey has led me to contribute to diverse projects,
             ranging from startups to a major corporation

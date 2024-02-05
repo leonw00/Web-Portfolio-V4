@@ -10,7 +10,7 @@ const ExperienceList = () => {
         company="QDoc"
         techs={["Javascript", "React", "AWS", "PostgreSQL", "MaterialUI"]}
       >
-        Redesign and refactorize the Physician's Meeting Room, employing React
+        Redesign and refactorize the Physician&apos;s Meeting Room, employing React
         and Twilio integration to ensure a seamless desktop and mobile
         experience. Developed API endpoints utilizing AWS services like
         Lambda, DynamoDB, Amplify, and API Gateway, supporting scalability.

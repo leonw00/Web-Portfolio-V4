@@ -38,8 +38,8 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
         {/* Children */}
         <p className="mt-2 mb-2">{children}</p>
         <ul className="flex flex-wrap">
-          {techs.map((val) => (
-            <li className="mr-2.5 mt-2 flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs leading-5 text-teal-200 ">
+          {techs.map((val, index) => (
+            <li key={index} className="mr-2.5 mt-2 flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs leading-5 text-teal-200 ">
               {val}
             </li>
           ))}
