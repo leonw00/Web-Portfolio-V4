@@ -4,7 +4,7 @@ const ProjectList = () => {
   return (
     <div className="text-gray-400 mb-20">
       <h1 className="text-lg text-white font-semibold mb-3">Project</h1>
-      <ProjectCard title="Adventure Audit" image="/mockrl.png">
+      <ProjectCard title="Adventure Audit" image="/mockAA.png">
         Developed a sleek travel expense management system using
         ChakraUI-powered React components for a user-friendly interface.
         Engineered a robust backend in Node.js, Express, MySQL, and Docker,
