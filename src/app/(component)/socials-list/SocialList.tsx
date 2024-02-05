@@ -5,7 +5,7 @@ import { FaItchIo } from "react-icons/fa";
 
 const SocialList: React.FC = () => {
   return (
-    <ul className="ml-1 mt-8 flex items-center pb-20 lg:mb-0">
+    <ul className="ml-1 mt-8  text-white-100 flex items-center pb-20 lg:mb-0">
       <li className="mr-5 shrink-0">
         <a href="https://github.com/leonw00" target="_blank">
           <span className="sr-only">GitHub</span>

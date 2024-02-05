@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col lg:sticky lg:top-0 lg:max-h-screen lg:justify-between pt-16 lg:py-24 lg:w-1/2">
         {/* Header */}
         <div>
-          <h1 className="text-5xl font-bold mb-5">Leonardo Warsito</h1>
+          <h1 className="text-5xl text-white-100 font-bold mb-5">Leonardo Warsito</h1>
           <div className="flex items-center text-lg text-gray-400 mb-1">
             <IoIosSearch className="mr-2" />
             <p className="align-middle">Looking for Work</p>
