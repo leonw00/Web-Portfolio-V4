@@ -12,7 +12,7 @@ const ProjectList = () => {
         requests/sec. Enhanced rendering efficiency with custom React hooks,
         utilizing memoization for faster load times.
       </ProjectCard>
-      <ProjectCard title="Reversible Learning" image="/mockrl.png">
+      <ProjectCard title="Reversible Learning" image="/mockRL.png">
         An android application that allows users to create flashcards to study
         from. This is a group project for my software engineer course where the
         project is built in Android Studio. By doing this project, I learn about
