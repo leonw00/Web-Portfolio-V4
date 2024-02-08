@@ -34,13 +34,13 @@ export default function Home() {
         <div className="text-gray-400 mb-section">
           <h1 className="text-lg text-white font-semibold mb-3">About me</h1>
           <p className="mb-5">
-            Throughout my journey, I've delved into various types of
+            Throughout my journey, I&#39;ve delved into various types of
             technologies and roles from building mobile application to working
             with robotics. However, my expertise lies in Fullstack development,
-            working with React, Node, and TypeScript. I'm also skilled in
+            working with React, Node, and TypeScript. I&#39;m also skilled in
             leveraging AWS and Firebase. With a passion for applying
             accessibility principles and user experience design, I enjoy
-            creating seamless user experiences. Currently, I'm on a mission to
+            creating seamless user experiences. Currently, I&#39;m on a mission to
             combine my technical skills with a deep understanding of user
             interactions, aiming to deliver innovative and user-friendly
             solutions.
