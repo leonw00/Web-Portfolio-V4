@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaItchIo } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 
 const SocialList: React.FC = () => {
   return (
@@ -23,11 +24,11 @@ const SocialList: React.FC = () => {
       </li>
       <li className="mr-5 shrink-0">
         <a
-          href="https://ca.linkedin.com/in/leonardo-warsito-733157203"
+          href="mailto:leonardow1908@gmail.com"
           target="_blank"
         >
-          <span className="sr-only">LinkedIn</span>
-          <FaItchIo className="h-6 w-6" />
+          <span className="sr-only">Email</span>
+          <TfiEmail className="h-6 w-6" />
         </a>
       </li>
     </ul>
