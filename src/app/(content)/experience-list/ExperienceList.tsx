@@ -6,7 +6,7 @@ const ExperienceList = () => {
       <h1 className="text-lg text-white font-semibold mb-3">Experience</h1>
       <ExperienceItem
         date="09/2022 - 12/2023"
-        title="Software Engineer"
+        title="Software Developer"
         company="QDoc"
         techs={["Javascript", "React", "AWS", "PostgreSQL", "MaterialUI"]}
       >
