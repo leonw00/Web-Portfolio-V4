@@ -36,7 +36,7 @@ export default function Home() {
             About me 👋{" "}
           </h1>
           <p className="mb-5">
-            Here, you'll find a glimpse into my experience as a developer and a
+            Here, you&#39;ll find a glimpse into my experience as a developer and a
             showcase of my projects. Each project comes with a brief description
             and a link to its repository for you to delve into the code.
           </p>
@@ -49,9 +49,9 @@ export default function Home() {
           </p>
           <p>
             Outside of work, I have fun by reading fantasy novels, biking round
-            town and playing board games in my free time. I'm passionate about
+            town and playing board games in my free time. I&#39;m passionate about
             creating meaningful and user-friendly solutions, so take a look
-            around and don't hesitate to reach out if you have any questions or
+            around and don&#39;t hesitate to reach out if you have any questions or
             ideas. Thanks for stopping by!
           </p>
         </div>
