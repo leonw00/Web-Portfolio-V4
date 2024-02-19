@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
           <div className="flex items-center text-lg text-gray-400 mb-1">
             <IoIosSearch className="mr-2" />
-            <p className="align-middle">Ready for New Advenutres</p>
+            <p className="align-middle">Ready for New Adventures 🚀</p>
           </div>
           <div className="flex items-center text-lg text-gray-400 mb-1">
             <LuGraduationCap className="mr-2" />
@@ -32,24 +32,27 @@ export default function Home() {
       <div className="lg:py-24 lg:w-1/2">
         {/* About */}
         <div className="text-gray-400 mb-section">
-          <h1 className="text-lg text-white font-semibold mb-3">About me</h1>
+          <h1 className="text-lg text-white font-semibold mb-3">
+            About me 👋{" "}
+          </h1>
+          <p className="mb-5">
+            Here, you'll find a glimpse into my experience as a developer and a
+            showcase of my projects. Each project comes with a brief description
+            and a link to its repository for you to delve into the code.
+          </p>
           <p className="mb-5">
             Throughout my journey, I&#39;ve delved into various types of
             technologies and roles from building mobile application to working
             with robotics. However, my expertise lies in Fullstack development,
             working with React, Node, and TypeScript. I&#39;m also skilled in
-            leveraging AWS and Firebase. With a passion for applying
-            accessibility principles and user experience design, I enjoy
-            creating seamless user experiences. Currently, I&#39;m on a mission to
-            combine my technical skills with a deep understanding of user
-            interactions, aiming to deliver innovative and user-friendly
-            solutions.
+            leveraging AWS and Firebase.
           </p>
           <p>
             Outside of work, I have fun by reading fantasy novels, biking round
-            town and playing board games in my free time. I also enjoy combining
-            my passion for technology by working on projects and creating games
-            that incorporates new tech.
+            town and playing board games in my free time. I'm passionate about
+            creating meaningful and user-friendly solutions, so take a look
+            around and don't hesitate to reach out if you have any questions or
+            ideas. Thanks for stopping by!
           </p>
         </div>
 
