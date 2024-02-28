@@ -23,14 +23,14 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       {/* date */}
       <p className="sm:text-md lg:text-sm pt-1 sm:col-span-2 mb-1">{date}</p>
       <div className="sm:col-span-6">
-        <h3 className="text-md text-gray-200 grid sm:grid-cols-8">
+        <h3 className="text-md text-gray-200 grid sm:grid-cols-8 lg:grid-cols-1 xl:grid-cols-8">
           {/* Company */}
-          <span className="sm:col-span-4 flex items-center pb-1 sm:pt-0 sm:order-2">
+          <span className="sm:col-span-4 flex items-center pb-1 sm:pt-0 sm:order-2 lg:order-1 xl:order-2">
             <FaRegBuilding className="mr-2" />
             {company}
           </span>
           {/* title */}
-          <span className="sm:col-span-4 sm:order-1">{title}</span>
+          <span className="sm:col-span-4 sm:order-1 lg:order-2 xl:order-1">{title}</span>
         </h3>
         <h3 className="text-md text-gray-400 mt-0.2">
           <span className="sm:col-span-4">{title2}</span>

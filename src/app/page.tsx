@@ -6,7 +6,7 @@ import ProjectList from "./(content)/project-list/ProjectList";
 
 export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-screen-xl w-full lg:flex lg:justify-between lg:gap-4 px-8 md:px-12 lg:px-8 xl:px-0">
+    <main className="mx-auto min-h-screen max-w-screen-xl w-full lg:flex lg:justify-between lg:gap-4 px-8 md:px-12 lg:px-8 xl:px-4">
       {/* Left Side */}
       <div className="flex flex-col lg:sticky lg:top-0 lg:max-h-screen lg:justify-between pt-16 lg:py-24 lg:w-1/2">
         {/* Header */}
